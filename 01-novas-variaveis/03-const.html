@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>03 - const</title>
+</head>
+<body>
+</body>
+
+<script>
+    const secretNumber = 28;
+    
+    const leo = {
+        name: 'Leo Jaimesson',
+        age: 21
+    };
+    
+    Object.freeze(leo);
+    
+    leo.age = 22;
+    
+    console.log(leo);
+</script>
+</html>
